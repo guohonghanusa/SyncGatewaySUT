@@ -8,7 +8,7 @@ Scenario Outline: I want to validate Initial Sync
 	And I want to initiate <SyncType> sync 
 	Then I want to validate <SyncType> sync for static Data Check 
 	And I want to validate transaction record that was created 
-	Then I want to <cdeleteTransaction> transaction record for <workOrderTable> Object in SFDC 
+	Then I want to <deleteTransaction> transaction record for <workOrderTable> Object in SFDC 
 	And I want to <deleteTransaction> transaction record for <workOrderTable> Object in SFDC 
 	And I want to <deleteTransaction> transaction record for <workOrderTable> Object in SFDC 
 	
