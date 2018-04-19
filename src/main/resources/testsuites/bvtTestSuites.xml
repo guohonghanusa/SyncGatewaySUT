@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Synce Gateway Micro Services Testing Status" verbose="1" preserve-order="true">
+	<!-- <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+   </listeners> -->
+     <test name="BVT Test Suite">
+		<classes>
+			<class
+				name="com.sm.ge.automation.testRunner.TestRunner"></class>
+		</classes>
+	</test>	 
+</suite>
